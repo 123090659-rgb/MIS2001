@@ -8,6 +8,11 @@ def index():
     return render_template("index.html", title="Hands-on 1")
 
 
+@app.route("/exercise1")
+def exercise1():
+    return render_template("exercise1.html", title="Exercise 1")
+
+
 @app.route("/health")
 def health():
     return {"status": "ok"}, 200
