@@ -1,4 +1,9 @@
-# Hands-on 1 — Flask Web App for Local Server Deployment
+<<<<<<< HEAD
+# MIS2001
+
+Student ID: 123090659
+
+## Hands-on 1 — Flask Web App for Local Server Deployment
 
 A minimal self-contained Flask application demonstrating deployment on a local server.
 
@@ -55,3 +60,6 @@ New-NetFirewallRule -DisplayName "Flask Hands-on 1" -Direction Inbound -LocalPor
 ## Health Check
 
 `GET /health` returns `{"status": "ok"}` — useful to verify the server is running.
+=======
+# MIS2001
+>>>>>>> origin/main
